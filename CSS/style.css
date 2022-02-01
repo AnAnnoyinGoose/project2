@@ -1,7 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .navbar {
+position: relative;
 
 }
 
-.content{
+nav ul {
+    display: flex;
+    gap: 7rem;
+    text-align: center;
+    justify-content: center; 
+    padding: 1ex;   
+    background-color: rgba(255, 255, 245, 0.2);
+    border-bottom: solid rgba(0, 0, 0, 0.2);
 
+}
+ nav ul li , nav ul li a {
+
+    display: block;
+    width: 10rem;
+
+ }
+nav li a { background: rgb(196, 186, 78); border: solid black 3px; text-decoration: none; font-size: 1.4rem; color: black;  border-radius: 9px;}
+nav li a:hover {background: rgb(252, 45, 100); transition: 900ms; transform: translateY(20px); transform: rotateX(60);}
+header {
+    height: 200px;
+    border-radius: 0 0 20px 20px;
+    background-color: cadetblue;
 }
